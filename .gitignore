@@ -14,7 +14,7 @@
 node_modules/
 
 # ─── Strapi build output ──────────────────────────────────────────────────────
-build/
+
 .cache/
 .tmp/
 

@@ -1,0 +1,49 @@
+# ============================================================
+# Skyshade CMS — Strapi .gitignore
+# ============================================================
+
+# ─── Environment files ────────────────────────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+!.env.example
+
+# ─── Node modules ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Strapi build output ──────────────────────────────────────────────────────
+build/
+.cache/
+.tmp/
+
+# ─── Strapi uploads ───────────────────────────────────────────────────────────
+public/uploads/*
+!public/uploads/.gitkeep
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+
+# ─── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Database (SQLite — used in development) ──────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+.tmp/data.db
+
+# ─── Strapi specific ──────────────────────────────────────────────────────────
+.strapi/
+exports/

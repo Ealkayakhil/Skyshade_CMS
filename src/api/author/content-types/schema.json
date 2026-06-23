@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": { "singularName": "author", "pluralName": "authors", "displayName": "Author" },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "name":        { "type": "string",  "required": true },
+    "photo":       { "type": "media",   "allowedTypes": ["images"] },
+    "bio":         { "type": "text" },
+    "designation": { "type": "string" },
+    "linkedin":    { "type": "string" },
+    "twitter":     { "type": "string" }
+  }
+}
